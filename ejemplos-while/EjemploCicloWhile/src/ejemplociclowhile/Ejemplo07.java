@@ -31,6 +31,9 @@ public class Ejemplo07 {
         int contador = 0;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
+        /*
+        
+        */
         while (bandera) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
@@ -47,6 +50,10 @@ public class Ejemplo07 {
 
         promedio_final = suma_total / contador;
         System.out.printf("El promedio final es %.2f\n", promedio_final);
-
+        /*
+        En este ejemplo se utiliza while(bandera), mientras que en el caso 
+        anterior se usaba while(bandera == true), las dos formas son completamente
+        iguales, la diferencia es solo de estilo o forma de escribirlo.
+        */
     }
 }
