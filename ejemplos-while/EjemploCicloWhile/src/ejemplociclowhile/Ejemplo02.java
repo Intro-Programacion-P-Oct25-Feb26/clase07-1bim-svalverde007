@@ -20,7 +20,7 @@ public class Ejemplo02 {
         entrada.useLocale(Locale.US);
         int limite;
         int contador = 1;
-        System.out.println("Ingrese el Límite");
+        System.out.println("Ingrese el Límite"); // 6
         limite = entrada.nextInt(); 
         while (contador <= limite){
             
@@ -34,3 +34,8 @@ public class Ejemplo02 {
         
     }
 }
+/*
+El codigo pide ingresar por tecladoo un valor numerico para establecerlo como 
+limite y una vez ingresado el valor se ejecuta el codigo sumando +1, hasta llegar
+al valor asignado como limite
+*/
